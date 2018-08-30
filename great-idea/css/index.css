@@ -175,3 +175,68 @@ footer {
 	margin: 50px;
 	text-align: center
 }
+.services-content {
+    display: flex;
+    flex-direction: column;
+	justify-content: space-around;
+	margin: 20px ;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+}
+	
+.services-header-img {
+	margin: 10px 0px;
+		
+	}
+	
+	.servicesTitle {
+		font-size: 26px;
+		margin: 10px 0;
+		padding: 15px 0px 5px 0px;
+	}
+	
+	.card {
+		padding: 20px;
+		border: 1px solid black;
+		width: 420px;
+		background: whitesmoke;
+		margin: 20px 20px;
+	}
+	.blockContent{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		padding-bottom: 20px;
+		margin: 20px;
+		border-bottom: 1px solid black;
+
+	}
+	.card button {
+		padding: 10px 40px;
+		margin-top: 20px;
+		cursor: pointer;
+		background: white;
+		border-radius: 5px;
+		border: 1px solid black;
+	}
+
+	.facts {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		padding: 20px;
+	}
+	.factsText p {
+		padding-bottom: 20px;
+		
+	}
+
+	.list {
+		list-style: square;
+		list-style-position: inside; 
+		line-height: 30px;
+	}
+	.services-info-img {
+		padding 10px;
+	}
+	
